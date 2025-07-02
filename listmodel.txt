@@ -1,0 +1,36 @@
+1. 
+
+product category (ID, productcategory)
+
+productsubcategory (ID, name)   ---> Same Table (product inofo) 
+
+product ( ID, name) 
+
+StateProvince(ID, name, territory, countryregioncode)
+Salesheader (Stateprovince ID) 
+
+
+2.Type of article sold vs season of the year (valeur & volume 
+
+
+product category (ID, productcategory)
+
+productsubcategory (ID, name)   ---> Same Table (product inofo) 
+
+product ( ID, name) 
+
+
+salesordertail(salesorderid, productid, modifieddate) 
+
+Salesorderheader(sales order ID, orderdate, subtotal)
+Sales order Detail (Sales Order ID, Uniteprice)
+
+3. Classification of stores: sales the most vs sales the least
+
+
+Store(businessentityid, storename, salespersonid)
+
+Salesorderheader(salespersonid, subtotal) 
+
+
+
