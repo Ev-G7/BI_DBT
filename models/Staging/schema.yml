@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: corentin       # Logical name for your source (you can choose this)
+    tables:
+      - name: stateprovince   # The actual table name in your database
+        description: "State and province data from eve' schema"
+      - name: product   # The actual table name in your database
+        description: "State and province data from eve' schema"
+      - name: productcategory   # The actual table name in your database
+        description: "State and province data from eve' schema"

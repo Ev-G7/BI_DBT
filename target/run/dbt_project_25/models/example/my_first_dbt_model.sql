@@ -2,7 +2,7 @@
   
     
 
-  create  table "BI_group4"."public"."my_first_dbt_model__dbt_tmp"
+  create  table "BI_group4"."_"."my_first_dbt_model__dbt_tmp"
   
   
     as

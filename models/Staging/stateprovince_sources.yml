@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: raw         # Logical name for your source (you can choose this)
-    schema: eve      # The actual schema in your database where the table lives
-    tables:
-      - name: stateprovince   # The actual table name in your database
-        description: "State and province data from eve' schema"

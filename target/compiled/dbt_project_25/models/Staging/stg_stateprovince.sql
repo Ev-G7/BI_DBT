@@ -1,4 +1,4 @@
-{{ config(materialized='table', schema='_staging') }}
+
 
 SELECT
   stateprovinceid, 
@@ -6,7 +6,7 @@ SELECT
   territoryid,
   name AS regionname,
   stateprovincecode
-FROM {{ source('corentin', 'stateprovince') }}
+FROM "BI_group4"."corentin"."stateprovince"
 
 --run in terminal/shell: 
 --dbt run --select stg_stateprovince
