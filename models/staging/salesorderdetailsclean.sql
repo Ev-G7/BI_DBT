@@ -6,5 +6,8 @@
 select 
 	salesorderid, 
 	unitprice,
-	orderqty as orderquantity
-from {{ source('raw_data', 'salesorderdetail') }}
+	orderqty as orderquantity,
+	productid,
+	unitpricediscount as discount
+
+from {{ source('corentin', 'salesorderdetail') }}

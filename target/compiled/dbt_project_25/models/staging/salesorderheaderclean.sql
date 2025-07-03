@@ -1,7 +1,4 @@
-{{ config(
-    materialized='table',
-    schema='_staging'  
-) }}
+
 
 select
     orderdate,
@@ -12,4 +9,4 @@ select
     customerid,
     salespersonid,
     shipdate
-from {{ source('corentin', 'salesorderheader') }}
+from "BI_group4"."corentin"."salesorderheader"

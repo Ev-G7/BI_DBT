@@ -9,3 +9,26 @@ sources:
         description: "State and province data from eve' schema"
       - name: productcategory   # The actual table name in your database
         description: "State and province data from eve' schema"
+
+      - name : customer
+      
+      - name : date
+        description : "dates in an intervall of few years"
+
+      - name : salesorderdetail
+        description : 'details of the commands'
+
+      - name : salesorderheader
+        description : 'main informations of the commands'
+      
+      - name : store1 
+        description : 'informations about the stores' 
+
+      - name : productsubcategory
+
+
+      - name : person
+
+      - name : address
+
+      
