@@ -7,4 +7,4 @@ select
     salespersonid as salerid,
     storename,
     businessentityid
-from {{ source('raw_data', 'store1') }}
+from {{ source('corentin', 'store1') }}

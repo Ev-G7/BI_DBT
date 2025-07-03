@@ -5,7 +5,11 @@
 
 select
     orderdate,
-    salesorderid
+    salesorderid,
     territoryid,
-    salespersonid as salerid
-from {{ source('raw_data', 'salesorderheader') }}
+    salespersonid as salerid,
+    billtoaddressid,
+    customerid,
+    salespersonid,
+    shipdate
+from {{ source('corentin', 'salesorderheader') }}

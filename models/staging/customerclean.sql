@@ -5,5 +5,6 @@
 
 select
     customerid, 
-	storeid
-from {{ source('raw_data', 'customer') }}
+	storeid,
+    territoryid,
+from {{ source('corentin', 'customer') }}
