@@ -22,13 +22,20 @@ sources:
         description : 'main informations of the commands'
       
       - name : store1 
+<<<<<<< HEAD
         description : 'informations about the stores' 
+=======
+        description : informations about the stores 
+>>>>>>> origin/corentin
 
       - name : productsubcategory
 
 
+<<<<<<< HEAD
       - name : person
 
       - name : address
 
+=======
+>>>>>>> origin/corentin
       
