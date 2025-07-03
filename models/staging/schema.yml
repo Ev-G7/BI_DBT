@@ -11,9 +11,8 @@ sources:
         description: "State and province data from eve' schema"
 
       - name : customer
-        description : "infos about the customers"
-
-      - name : date 
+      
+      - name : date
         description : "dates in an intervall of few years"
 
       - name : salesorderdetail
@@ -24,6 +23,8 @@ sources:
       
       - name : store1 
         description : informations about the stores 
-        
+
+      - name : productsubcategory
+
 
       

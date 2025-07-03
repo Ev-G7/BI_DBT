@@ -6,5 +6,5 @@
 select
     customerid, 
 	storeid,
-    territoryid,
+    territoryid
 from {{ source('corentin', 'customer') }}
