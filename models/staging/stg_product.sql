@@ -2,7 +2,8 @@
 
 SELECT
   productid, 
-  name AS itemname
+  name AS itemname,
+  productsubcategoryid::integer AS productsubcategoryid
 FROM {{ source('corentin', 'product') }}
 
 --run in terminal/shell: 
